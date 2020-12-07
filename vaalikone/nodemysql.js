@@ -6,9 +6,9 @@ const app = express();
 var testiVar1 = "alkuArvo";
 
 var con = mysql.createConnection({
-    host:"mysli.oamk.fi",
-    user:"t9keto00",
-    password:"azN8uqmsH6tbppDr"
+    host:"",
+    user:"",
+    password:""
 });
 
 con.connect(function(err) {
